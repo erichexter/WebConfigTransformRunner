@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>WebConfigTransformRunner</id>
+    <version>1.0.0.0</version>
+    <title>ASP.Net Web Config Transform Runner Command Line Tool</title>
+    <authors>Eric Hexter</authors>
+    <owners>Eric Hexter</owners>    
+    <projectUrl>https://github.com/erichexter/WebConfigTransformRunner</projectUrl>    
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is a commandline tool that will run an ASP.Net web.config tranformation</description>
+    <releaseNotes>Initial Release of the tool</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <dependencies/>
+  </metadata>
+  <files>
+    <file src="bin\Debug\WebConfigTransformRunner.exe" target="Tools"/>
+    <file src="readme.txt" target="readme.txt"/>
+  </files>
+</package>
