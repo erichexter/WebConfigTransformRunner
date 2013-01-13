@@ -8,6 +8,8 @@ Usage:
 
 More Information:
 		https://github.com/erichexter/WebConfigTransformRunner
+		
+Documentation on the Web.Config Transformation Syntax is located here: http://msdn.microsoft.com/en-us/library/dd465326.aspx 
 
 Created by:
 	Eric Hexter 
