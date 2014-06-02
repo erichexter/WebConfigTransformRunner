@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>WebConfigTransformRunner</id>
-    <version>1.0.0.0</version>
+    <version>1.0.1.0</version>
     <title>ASP.Net Web Config Transform Runner Command Line Tool</title>
     <authors>Eric Hexter</authors>
     <owners>Eric Hexter</owners>    
