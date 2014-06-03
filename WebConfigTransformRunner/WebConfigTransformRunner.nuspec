@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>WebConfigTransformRunner</id>
-    <version>1.0.2.0</version>
+    <version>1.0.2.1</version>
     <title>ASP.Net Web Config Transform Runner Command Line Tool</title>
     <authors>Eric Hexter</authors>
     <owners>Eric Hexter</owners>    
@@ -14,7 +14,8 @@
     <dependencies/>
   </metadata>
   <files>
-    <file src="bin\Debug\WebConfigTransformRunner.exe" target="WebConfigTransformRunner.exe"/>
+    <file src="bin\Release\WebConfigTransformRunner.exe" target="WebConfigTransformRunner.exe" />
+    <file src="bin\Release\Microsoft.Web.XmlTransform.dll" target="Microsoft.Web.XmlTransform.dll" />
     <file src="readme.txt" target="readme.txt"/>
   </files>
 </package>
