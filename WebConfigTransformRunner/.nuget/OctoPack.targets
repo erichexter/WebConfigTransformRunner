@@ -16,14 +16,14 @@
   <PropertyGroup>
     <OctoPackImported>true</OctoPackImported>
 
-    <RunOctoPack Condition="'$(RunOctoPack)'==''">false</RunOctoPack>
+    <RunOctoPack Condition="'$(RunOctoPack)'==''">true</RunOctoPack>
     <OctoPackIncludeTypeScriptSourceFiles Condition="'$(OctoPackIncludeTypeScriptSourceFiles)'==''">false</OctoPackIncludeTypeScriptSourceFiles>
     <OctoPackNuSpecFileName Condition="'$(OctoPackNuSpecFileName)' == ''"></OctoPackNuSpecFileName>
     <OctoPackReleaseNotesFile Condition="'$(OctoPackReleaseNotesFile)' == ''"></OctoPackReleaseNotesFile>
     <OctoPackNuGetExePath Condition="'$(OctoPackNuGetExePath)' == ''"></OctoPackNuGetExePath>
     <OctoPackPublishPackageToFileShare Condition="'$(OctoPackPublishPackageToFileShare)' == ''"></OctoPackPublishPackageToFileShare>
-    <OctoPackPublishPackageToHttp Condition="'$(OctoPackPublishPackageToHttp)' == ''"></OctoPackPublishPackageToHttp>
-    <OctoPackPublishApiKey Condition="'$(OctoPackPublishApiKey)' == ''"></OctoPackPublishApiKey>
+    <OctoPackPublishPackageToHttp Condition="'$(OctoPackPublishPackageToHttp)' == ''">https://deploy.futurestack.nl/nuget/packages</OctoPackPublishPackageToHttp>
+    <OctoPackPublishApiKey Condition="'$(OctoPackPublishApiKey)' == ''">API-BPSTFFYHZVTRMH6GDHZTLXWYQ</OctoPackPublishApiKey>
     <OctoPackPackageVersion Condition="'$(OctoPackPackageVersion)' == ''"></OctoPackPackageVersion>
     <OctoPackNuGetArguments Condition="'$(OctoPackNuGetArguments)' == ''"></OctoPackNuGetArguments>
     <OctoPackNugetProperties Condition="'$(OctoPackNuGetProperties)' == ''"></OctoPackNugetProperties>
