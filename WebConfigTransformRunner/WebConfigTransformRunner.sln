@@ -10,8 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B2EE56
 		.nuget\NuGet.Config = .nuget\NuGet.Config
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
-		..\..\..\TFS.Repository\EOI\Whkmp.WebApp\.nuget\OctoPack.targets = ..\..\..\TFS.Repository\EOI\Whkmp.WebApp\.nuget\OctoPack.targets
-		..\..\..\TFS.Repository\EOI\Whkmp.WebApp\.nuget\OctoPack.Tasks.dll = ..\..\..\TFS.Repository\EOI\Whkmp.WebApp\.nuget\OctoPack.Tasks.dll
+		.nuget\OctoPack.targets = .nuget\OctoPack.targets
+		.nuget\OctoPack.Tasks.dll = .nuget\OctoPack.Tasks.dll
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
