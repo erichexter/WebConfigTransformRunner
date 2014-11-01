@@ -4,7 +4,7 @@ This is a commandline tool to run an ASP.Net web.config tranformation.
 
 Usage:
 
-		WebConfigTransformationRunner.exe WebConfigFilename TransformFilename OutputFilename
+		WebConfigTransformRunner.exe WebConfigFilename TransformFilename OutputFilename
 
 More Information:
 		https://github.com/erichexter/WebConfigTransformRunner
